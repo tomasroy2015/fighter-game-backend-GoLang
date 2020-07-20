@@ -18,6 +18,10 @@
  --main.go
 
 //instruction to run the project
+Database configuration are set in .env file
 step1) create database named zenport_db for production and zenport_db_test for testing
 step2) run the project by writting  -> go run main.go
 step3) run the test -> go test -v --run ./api/tests/...
+
+Docker integration is not set up because docker kernel is not working properly in my windows PC.
+
